@@ -6,7 +6,7 @@ import Resume from "@/components/Resume";
 
 const Home: React.FC = () => {
   return (
-    <div className="bg-[#ffffff]">
+    <div className="bg-[#ffffff] text-black">
       <Navbar />
       <main className="container mx-auto px-4">
         <About />
