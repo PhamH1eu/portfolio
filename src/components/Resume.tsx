@@ -137,12 +137,14 @@ const Resume: React.FC = () => {
         <h2 className="text-xl font-semibold text-secondary mt-4">Languages</h2>
         <Languages />
 
-        <button
+        <div className="w-full text-center">
+          <button
             type="submit"
             className="bg-black text-white w-auto p-2 mt-4 rounded-md hover:bg-gray-800 transition-colors duration-300 cursor-pointer"
           >
             Send Message
           </button>
+        </div>
       </Card>
     </section>
   );
