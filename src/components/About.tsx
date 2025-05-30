@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About: React.FC = () => {
   return (
-    <div id="about" className="px-16 pt-20">
+    <div id="about" className="px-14 pt-20">
       <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
       <Card>
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6 p-6">
@@ -23,18 +23,19 @@ const About: React.FC = () => {
             <h3 className="text-xl font-semibold mb-2">
               Hello, I&apos;m Pham Minh Hieu
             </h3>
-            <p className="text-lightGray text-lg leading-relaxed">
-              I&apos;m a passionate full-stack engineer with strong proficiency
-              in data structures and algorithms. I specialize in DevOps
-              practices and have experience in developing web and mobile
-              applications using various technologies such as Python, Golang,
-              Flutter, and more.
+            <p className="text-lightGray text-lg leading-relaxed text-justify">
+              I am a highly skilled Fullstack Engineer with a strong passion for
+              designing and building efficient, elegant web solutions that
+              address complex challenges. I bring expertise in Java, Node.js,
+              and ReactJS, utilizing technologies to create robust and
+              scalable applications.
             </p>
-            <p className="text-lightGray text-lg leading-relaxed mt-4">
-              My goal is to deliver high-quality solutions to complex technical
-              challenges. I&apos;m always eager to take on new projects and
-              contribute to innovative solutions in the field of software
-              engineering.
+            <p className="text-lightGray text-lg leading-relaxed mt-4 text-justify">
+              My experience includes successfully delivering cloud-based
+              projects, ensuring high performance and reliability. I am deeply
+              motivated to contribute to innovative projects and continuously
+              expand my knowledge and skill set in the ever-evolving tech
+              landscape.
             </p>
           </div>
         </div>
