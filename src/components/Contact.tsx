@@ -1,6 +1,5 @@
 "use client";
 import Card from "@/shared/Card";
-import { log } from "console";
 import { useRef, useState } from "react";
 
 const Contact: React.FC = () => {
