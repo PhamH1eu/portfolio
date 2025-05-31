@@ -28,7 +28,7 @@ export const POST = async (request: Request) => {
             replyTo: body.email,
             to: ['hieupham110303@gmail.com'],
             subject: 'CV Question',
-            //@ts-expect-error
+            //@ts-expect-error 12312
             react: EmailTemplate({ firstName: body.name, message: body.message })
         });
 
